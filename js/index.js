@@ -21,7 +21,7 @@ function startGame() {
   ctx = canvas.getContext('2d');
   maxObstacleWidth = canvas.width * 0.4; //Maximum width of obstacle is 40% of the road
   roadImg = new Image();
-  roadImg.src = 'Images/road.png';
+  roadImg.src = "https://github.com/Hadiquaa/lab-canvas-race-car/blob/master/images/road.png";
   carImg = new Image();
   carImg.src = 'Images/car.png';
   carX = (canvas.width - carWidth) / 2 //Centering car horizontally
