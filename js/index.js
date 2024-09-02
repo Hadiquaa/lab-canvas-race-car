@@ -23,7 +23,7 @@ function startGame() {
   roadImg = new Image();
   roadImg.src = "images/road.png";
   carImg = new Image();
-  carImg.src = 'Images/car.png';
+  carImg.src = 'images/car.png';
   carX = (canvas.width - carWidth) / 2 //Centering car horizontally
   roadY2 = -canvas.height //Initializing the second road image position
 
